@@ -3,6 +3,7 @@ import React, { Profiler } from "react";
 import "./styles.css";
 import ListofTenThings from "./jsx_probe";
 import Greeting from "./without_es6";
+import MouseTrack from "./render_prop";
 
 export default function App() {
   function callback() {
@@ -16,6 +17,7 @@ export default function App() {
         </div>
       </Profiler>
       <Greeting name="czd123" />
+      <MouseTrack />
     </div>
   );
 }
